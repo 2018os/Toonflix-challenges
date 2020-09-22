@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  text-align: center;
+}
+
+div.header {
+  border: 1px solid black;
+}
+
+div.left {
+  position: fixed;
+  width: 300px;
+  height: 500px;
+  background-color: #8675a9;
+}
+
+div.main {
+  height: 500px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: #c3aed6;
+}
+
+div.footer {
+  height: 200px;
+  background-color: #efbbcf;
+}
